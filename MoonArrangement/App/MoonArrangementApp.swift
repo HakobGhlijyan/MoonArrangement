@@ -17,9 +17,7 @@ import SwiftUI
 /// Entry point of the demo app. Requires iOS 27.1+ (`ArrangementView`).
 @main
 struct MoonArrangementApp: App {
-
     // MARK: Body
-
     var body: some Scene {
         WindowGroup {
             MoonCatalogView()
